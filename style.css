@@ -1,5 +1,3 @@
-/* Estilos globales */
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -13,16 +11,16 @@ header, main, footer {
 }
 
 #gato {
-    text-align: center; /* Centrar el contenido horizontalmente */
-    margin-top: 20px; /* Espacio superior */
+    text-align: center; 
+    margin-top: 20px; 
   }
   
-  /* Estilos para las imágenes de gatitos */
+
   #gato img {
-    width: 300px; /* Ancho fijo para todas las imágenes */
-    height: auto; /* Mantener la proporción de aspecto */
-    display: block; /* Eliminar espacios en blanco debajo de las imágenes */
-    margin: 0 auto; /* Centrar horizontalmente */
+    width: 330px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   }
@@ -34,9 +32,9 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilos para el botón */
+
 #boton {
-    background-color: #0078d4;
+    background-color: #ff6702;
     color: #fff;
     font-size: 16px;
     padding: 10px 20px;
@@ -47,10 +45,9 @@ main {
 }
 
 #boton:hover {
-    background-color: #005d9f;
+    background-color: #cf6400;
 }
 
-/* Estilos para el contenedor de la imagen de gato */
 #gato-container {
     display: flex;
     flex-direction: column;
@@ -58,19 +55,13 @@ main {
     margin: 20px auto;
 }
 
-
-#gato-info {
-    margin-top: 10px;
-}
-
-/* Estilos para el pie de página */
 footer {
-    background-color: #0078d4;
+    background-color: #cf6400;
     color: #fff;
     font-size: 14px;
-    border-top: 1px solid #005d9f;
+    border-top: 1px solid #cf6400;
     position: absolute;
     bottom: 0;
     width: 100%;
-    padding: 10px 0;
+    padding: 2px 0;
 }
